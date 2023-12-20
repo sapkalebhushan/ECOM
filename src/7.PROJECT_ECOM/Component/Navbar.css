@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 100px;
+    width: auto;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px ;
+    margin: 0 10px;
+    justify-content: space-around;
+}
+#option{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+#option img{
+    height: 100px;
+}
+.navart1{
+    height: 60px;
+    width: 90%;
+    margin: 30px 40px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 50px;
+    font-size: 22px;
+
+}
+input{
+    padding: 7px 25px;
+    text-align: center;
+    border: 3px solid rgb(230, 89, 38);
+    border-radius: 5px;
+
+}
+#navart2{
+    height: 50px;
+    width: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    visibility: hidden;
+}
+button{
+    border-radius: 5px;
+    padding: 5px 12px;
+    cursor: pointer;
+}
+#categrory{
+    color: rgb(26, 21, 21);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+#search{
+    height: 30px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (min-width:100px) and (max-width:600px) {
+    .navbar{
+        height: 100px;
+        width: auto;
+        margin: 0;
+        border-radius: 0;
+    }
+    .navart1{
+        height: 20px;
+        width: auto;
+        font-size: 16px;
+        gap: 0px;
+
+    }
+    #option{
+        height: 30px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #option div{
+        height: auto;
+        width: 75px;
+    }
+    #option img{
+        height: 40px;
+    }
+
+    input{
+        height: 30px;
+        width: 150px;
+        padding: 5px 5px;
+    }
+    #search{
+        position: absolute;
+    }
+
+    #navart2{
+        z-index: 2;
+        position: relative;
+        top: 40px;
+        height: 50px;
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+}

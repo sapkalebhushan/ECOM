@@ -1,0 +1,25 @@
+.card{
+    height: auto;
+    width: 320px;
+    border: 3px solid rgb(239, 89, 35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+
+}
+button{
+    padding: 8px 15px;
+    margin: 15px 1px;
+    border: 2px solid rgb(239, 89, 35);
+    font-size: medium;
+    
+}
+button:hover{
+    background: rgb(239, 89, 35);
+    color: white;
+}
+img{
+    margin: 20px;
+}

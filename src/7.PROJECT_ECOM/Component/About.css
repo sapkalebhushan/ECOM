@@ -1,0 +1,30 @@
+*{
+    font-family: sans-serif;
+   
+}
+.About{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    margin: 30px;
+}
+.right img{
+    height: 400px;
+    width: 400px;
+}
+.left{
+    height: auto;
+    width: 80%;
+    text-align: center;
+    
+}
+@media (min-width:200px) and (max-width:600px) {
+    .right img{
+        height: 320px;
+        width: 320px;
+    }
+}
